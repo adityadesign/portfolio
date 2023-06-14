@@ -12,6 +12,16 @@ export default function Projects(){
             <p>All my projects include links to the code and live version.</p>
             <div className="projectCards">
                 <div className="individualCard">
+                    <a href="https://silver-lamington-5c84f9.netlify.app">
+                        <img className='projectImg' src={Project3} />
+                    </a>
+                    <a href="https://github.com/adityadesign/SwiftCart--v2.git">
+                            <FontAwesomeIcon className='projectGit' icon={faGithub} style={{color: "#171515",}} />  
+                    </a>
+                    <h3>E Commerce Website</h3>
+                    <p>Implemented and deployed a responsive website using ReactJS. Integrated StoreAPI to enable users to search products through categories.</p>
+                </div>
+                <div className="individualCard">
                     <a href="https://bucolic-sunflower-5b597f.netlify.app/">
                         <img className='projectImg' src={Project1} />
                     </a>
@@ -32,16 +42,6 @@ export default function Projects(){
                     </a>
                     <h3>Tindog</h3>
                     <p>This is a conceptual design of a website and it's based on Tinder but for dogs.</p>
-                </div>
-                <div className="individualCard">
-                    <a href="https://silver-lamington-5c84f9.netlify.app">
-                        <img className='projectImg' src={Project3} />
-                    </a>
-                    <a href="https://github.com/adityadesign/SwiftCart--v2.git">
-                            <FontAwesomeIcon className='projectGit' icon={faGithub} style={{color: "#171515",}} />  
-                    </a>
-                    <h3>E Commerce Website</h3>
-                    <p>Implemented and deployed a responsive website using ReactJS. Integrated StoreAPI to enable users to search products through categories.</p>
                 </div>
                 <div className="individualCard">
                     <a href="https://dulcet-bubblegum-a2c7c3.netlify.app/">
