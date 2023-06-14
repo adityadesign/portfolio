@@ -29,7 +29,7 @@ export default function Projects(){
                             <FontAwesomeIcon className='projectGit' icon={faGithub} style={{color: "#171515",}} />  
                     </a>
                     <h3>Multi-Step Form</h3>
-                    <p>It's a form where it takes the user's data for subscribing a specified order. After filling, user are able to see
+                    <p>It&apos;s a form where it takes the user&apos;s data for subscribing a specified order. After filling, user are able to see
                     a summary of their selections on the final step and confirm their order.
                     </p>
                 </div>
@@ -41,7 +41,7 @@ export default function Projects(){
                             <FontAwesomeIcon className='projectGit' icon={faGithub} style={{color: "#171515",}} />  
                     </a>
                     <h3>Tindog</h3>
-                    <p>This is a conceptual design of a website and it's based on Tinder but for dogs.</p>
+                    <p>This is a conceptual design of a website and it&apos;s based on Tinder but for dogs.</p>
                 </div>
                 <div className="individualCard">
                     <a href="https://dulcet-bubblegum-a2c7c3.netlify.app/">

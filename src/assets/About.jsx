@@ -1,4 +1,3 @@
-import Hero from './Hero'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faCss3Alt, faJs, faReact, faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -7,7 +6,7 @@ export default function About(){
         <div className='aboutSection'>
             <div className='aboutTextSection'>
                 <h2>About me</h2>
-                <p>I am a passionate Frontend developer and have a desire of continuous learning, unlearning and creating new things. With my skills and experience, I build dynamic and responsive websites using React JS that provide users with intuitive and seamless experiences. Let's collaborate and create something amazing!</p>
+                <p>I am a passionate Frontend developer and have a desire of continuous learning, unlearning and creating new things. With my skills and experience, I build dynamic and responsive websites using React JS that provide users with intuitive and seamless experiences. Let&apos;s collaborate and create something amazing!</p>
             </div>
             <div className='aboutSkillSection'>
                 <h2>Skills</h2>

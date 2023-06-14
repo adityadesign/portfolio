@@ -2,7 +2,7 @@ import { Link as ScrollLink } from 'react-scroll';
 export default function Hero(){
     return (
         <div className="hero">
-            <h1>Hey, <span className="nameText">I'm Aditya</span></h1>
+            <h1>Hey, <span className="nameText">I&apos;m Aditya</span></h1>
             <p>A Front-end developer</p>
             <div className="buttons">
                 <ScrollLink
