@@ -2,6 +2,7 @@ import Project1 from '../Images/MultiStepForm.png'
 import Project2 from '../Images/CRUD.png'
 import Project3 from '../Images/SwiftCart.png'
 import Project4 from '../Images/FindYourFilm.png'
+import Project5 from '../Images/GameX.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -11,6 +12,16 @@ export default function Projects(){
             <h2>Projects</h2>
             <p>All my projects include links to the code and live version.</p>
             <div className="projectCards">
+                <div className="individualCard">
+                    <a href="https://spontaneous-dolphin-92365e.netlify.app">
+                        <img className='projectImg' src={Project5} />
+                    </a>
+                    <a href="https://github.com/adityadesign/GameX.git">
+                        <FontAwesomeIcon className='projectGit' icon={faGithub} style={{color: "#171515",}} />  
+                    </a>
+                    <h3>GameX</h3>
+                    <p>Developed a multi-page web application using React and RAWG API that shows games. Managed state throughout the application using Redux Toolkit. Maintained single-page navigation of the website using React Router library. Programmed logic for searching and filtering through genres of games.</p>
+                </div>
                 <div className="individualCard">
                     <a href="https://silver-lamington-5c84f9.netlify.app">
                         <img className='projectImg' src={Project3} />
