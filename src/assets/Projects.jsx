@@ -3,6 +3,7 @@ import Project2 from '../Images/CRUD.png'
 import Project3 from '../Images/SwiftCart.png'
 import Project4 from '../Images/FindYourFilm.png'
 import Project5 from '../Images/GameX.png'
+import Project6 from '../Images/MovieZ.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -12,6 +13,16 @@ export default function Projects(){
             <h2>Projects</h2>
             <p>All my projects include links to the code and live version.</p>
             <div className="projectCards">
+                <div className="individualCard">
+                    <a href="https://spontaneous-valkyrie-7d7912.netlify.app">
+                        <img className='projectImg' src={Project6} />
+                    </a>
+                    <a href="https://github.com/adityadesign/MovieZ.git">
+                        <FontAwesomeIcon className='projectGit' icon={faGithub} style={{color: "#171515",}} />  
+                    </a>
+                    <h3>MovieZ</h3>
+                    <p>Led the end-to-end development of a dynamic multi-page web application using React, seamlessly interfacing with the TMDB API to showcase an extensive collection of Movies and TV shows. Employed the React Router library to architect a cohesive single-page navigation system, enhancing user experience. Implemented RTK Query to call all the required data from the API.</p>
+                </div>
                 <div className="individualCard">
                     <a href="https://spontaneous-dolphin-92365e.netlify.app">
                         <img className='projectImg' src={Project5} />
